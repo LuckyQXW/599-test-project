@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <form>
+      <label for="name">姓名（Name of child）</label>
+      <input type="text" id="name" name="name" required>
+      <label for="topic">主题（Topic）</label>
+      <input type="text" id="topic" name="topic" required>
+      <label for="keywords">关键词（Keywords included (separate by comma)）</label>
+      <input type="text" id="keywords" name="keywords" required>
+      <button>Submit</button>
+    </form>
+    <img id="loading" src="./loading.gif" alt="loading" class="hidden">
+    <div id="container">
+      <div id="story"></div>
+      <div id="translation"></div>
+    </div>
+  </body>
+</html>

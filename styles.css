@@ -1,0 +1,46 @@
+.sentence-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.char-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5px 0 5px;
+}
+
+.char-box p {
+  text-align: center;
+  margin: 0;
+  min-height: 18px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.hidden {
+  display: none;
+}
+
+#story {
+  width: 50%;
+  margin-right: 20px;
+}
+
+#translation {
+  width: 50%;
+  font-size: x-large;
+}
+
+#container {
+  display: flex;
+  width: 100%;
+}
